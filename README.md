@@ -34,3 +34,5 @@ Aplicación web con Flask y SQLite que registra clientes y lleva un control de s
 -**static/**              # Archivos CSS
 -**templates/**           # Plantillas HTML
 
+Este es mi primer "proyecto", ojala alguien logre verlo y me diga que es lo que puedo mejorar.
+¡Gracias por ver!
