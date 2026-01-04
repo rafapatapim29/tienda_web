@@ -17,20 +17,20 @@ Aplicación web con Flask y SQLite que registra clientes y lleva un control de s
     -HTML y CSS
 
 #### **Instalación**
- 1- Clona este repositorio:
-     git clone https://github.com/rafapatapim29/tienda_web.git
+ 1- **Clona este repositorio:**
+     *git clone https://github.com/rafapatapim29/tienda_web.git*
 
- 2- Instala las dependencias:
-     pip install flask
+ 2- **Instala las dependencias:**
+     *pip install flask*
 
- 3- Ejecuta:
-     python app.py
+ 3- **Ejecuta:**
+     *python app.py*
 
- 4- En el naveghador abre: http://localhost:5000
+ 4- **En el naveghador abre:** *http://localhost:5000*
 
 ##### **Estrucutra del Proyecto**
--app.py               # Archivo principal con rutas y lógica
--tienda.db            # Base de datos SQLite
--static/              # Archivos CSS
--templates/           # Plantillas HTML
+-**app.py**               # Archivo principal con rutas y lógica
+-**tienda.db**           # Base de datos SQLite
+-**static/**              # Archivos CSS
+-**templates/**           # Plantillas HTML
 
