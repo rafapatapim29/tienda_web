@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Clientes</h2>
+<h3>Buscar cliente</h3>
+<form method="POST" action="{{ url_for('buscar_cliente') }}">
+    <input type="text" name="nombre" placeholder="Nombre a buscar" required>
+    <button type="submit">Buscar 🔍</button>
+</form>
+
+<ul>
+    {% for c in clientes %}
+    <li>
+        <a href="{{ url_for('historial', cliente_id=c.id) }}">{{ c.nombre }}</a>
+        - Saldo: ${{ c.saldo_total }}
+
+        <!-- Botón de eliminar -->
+        <form method="POST" action="{{ url_for('eliminar_cliente', cliente_id=c.id) }}" style="display:inline;">
+            <button type="submit" onclick="return confirm('¿Seguro que quieres eliminar este cliente?')">
+                Eliminar ❌
+            </button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Agregar nuevo cliente</h3>
+<form method="POST" action="{{ url_for('agregar_cliente') }}">
+    <input type="text" name="nombre" placeholder="Nombre del cliente" required>
+    <button type="submit">Agregar</button>
+</form>
+{% endblock %}

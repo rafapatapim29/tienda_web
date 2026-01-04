@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
