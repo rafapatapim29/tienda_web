@@ -34,5 +34,9 @@ Aplicación web con Flask y SQLite que registra clientes y lleva un control de s
 -**static/**              # Archivos CSS
 -**templates/**           # Plantillas HTML
 
+<img width="408" height="489" alt="image" src="https://github.com/user-attachments/assets/183721f5-8997-417b-b01d-7a2ce66126e1" />
+<img width="1388" height="365" alt="image" src="https://github.com/user-attachments/assets/411d8e29-e6bc-404a-99b3-50c5fa831002" />
+
+
 Este es mi primer "proyecto", ojala alguien logre verlo y me diga que es lo que puedo mejorar.
 ¡Gracias por ver!
